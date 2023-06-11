@@ -4,9 +4,10 @@ import { SkillsData, LanguagesData, ToolsData } from "../Data/AbilitiesData.js";
 import DisplayAbility from "./Components/DisplayAbility";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import StarIcon from "@mui/icons-material/Star";
+import SectionHeading from "./Components/SectionHeading";
 
 const Abilities = () => {
-  const stars = a => {
+  const stars = (a) => {
     var list = [];
     var i;
     for (i = 0; i < a; i++) {
@@ -19,11 +20,12 @@ const Abilities = () => {
   };
 
   return (
-    <div className="abilities" id="Abilities-Page">
-      <h1>Abilities</h1>
-      “Life without knowledge is death in disguise.”
-      <br /> - Talib Kweli
-      <hr />
+    <div className="abilities" id="abilities">
+      <SectionHeading
+        heading="Abilities"
+        quote="“Life without knowledge is death in disguise.”"
+        quoteBy=" - Talib Kweli"
+      />
       <h4>Skills</h4>
       <div className="abilities-tab-div">
         {SkillsData.map((item, index) => {

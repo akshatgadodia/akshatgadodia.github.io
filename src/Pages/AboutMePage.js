@@ -1,13 +1,12 @@
 import React from "react";
 import "./Stylesheets/AboutMePage.css";
 import ProfileImage from "../Resources/ProfileImage.png";
+import SectionHeading from "./Components/SectionHeading";
 
 const AboutMePage = () => {
   return (
     <div className="about-me" id="profile">
-      <h1>Profile</h1>
-      I'm a creative web and mobile developer
-      <hr />
+      <SectionHeading heading="Profile" quote="I'm a creative web and mobile developer"/>
       <div className="about-me-tab-div">
         <div>
           <h2>About Me</h2>
@@ -20,7 +19,7 @@ const AboutMePage = () => {
           </p>
         </div>
         <div className="about-me-image-div">
-          <img src={ProfileImage} alt="Akshat Gadodia Image" />
+          <img src={ProfileImage} alt="Akshat Gadodia" />
         </div>
         <div>
           <h2>Details</h2>

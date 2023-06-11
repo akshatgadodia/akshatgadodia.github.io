@@ -14,6 +14,15 @@
   border: none !important;
   cursor: pointer;
 }
+.side-drawer-brand{
+  font-size: 30px;
+  font-family: 'Aladin';
+  color: #4e54c8;
+}
+.side-drawer-brand:hover{
+  color: #4e54c8;
+  cursor: pointer;
+}
 .side-drawer-button div {
   background-color: white;
   height: 2px;
@@ -33,8 +42,8 @@
 }
 
 .side-drawer-main-div {
-  background-color: var(--white) !important;
-  color: var(--black) !important;
+  background-color: white !important;
+  color: black !important;
   padding: 10px;
 }
 
@@ -68,15 +77,12 @@
   width: 36px !important;
   height: 36px !important;
 }
-
 .side-drawer .ant-drawer-close:hover,
 .side-drawer .ant-drawer-close:focus {
   border: 2px solid var(--purple) !important;
   background-color: var(--purple) !important;
   color: var(--white) !important;
 }
-
-
 .drawer-links {
   display: flex;
   flex-direction: column;
@@ -94,12 +100,20 @@
   display: inline-block !important;
 
 }
-
 .side-drawer-link:hover,
 .side-drawer-link:focus,
 .side-drawer-link:active {
   color: var(--purple) !important;
 } 
+.side-drawer-connect {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  width: 200px;
+  justify-content: flex-start;
+  gap: 20px;
+  color: black;
+}
 @media only screen and (min-width: 769px){
   .side-drawer-button{
     display: none !important;

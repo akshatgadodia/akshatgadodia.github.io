@@ -1,7 +1,14 @@
 import React, { useState } from "react";
-import { Button, Drawer } from "antd";
+import { Drawer } from "antd";
 import "./Stylesheets/SideDrawer.css";
 import { Link } from "react-scroll";
+import {
+  Facebook,
+  LinkedIn,
+  Instagram,
+  GitHub,
+  YouTube,
+} from "@mui/icons-material";
 
 const SideDrawer = () => {
   const [open, setOpen] = useState(false);
@@ -27,13 +34,18 @@ const SideDrawer = () => {
 
       <Drawer
         title={
-          <a href="/">
-            <img
-              src="/images/drunken-bytes-logo-complete.png"
-              alt=""
-              className="sideDrawerLogo"
-            />
-          </a>
+          <div className="side-drawer-logo-container">
+            <Link
+              className="side-drawer-brand"
+              to="home-page"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Akshat Gadodia
+            </Link>
+          </div>
         }
         className="side-drawer"
         placement="right"
@@ -43,15 +55,113 @@ const SideDrawer = () => {
         <div className="side-drawer-main-div">
           <div className="drawer-links">
             <Link
-              activeClass="active"
-              to="test1"
+              className="side-drawer-link"
+              activeClass="side-drawer-link-active"
+              to="profile"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-80}
               duration={500}
             >
-              Test 1
+              Profile
             </Link>
+            <Link
+              className="side-drawer-link"
+              activeClass="side-drawer-link-active"
+              to="education"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Education
+            </Link>
+            <Link
+              className="side-drawer-link"
+              activeClass="side-drawer-link-active"
+              to="abilities"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Abilities
+            </Link>
+            <Link
+              className="side-drawer-link"
+              activeClass="side-drawer-link-active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <Link
+              className="side-drawer-link"
+              activeClass="side-drawer-link-active"
+              to="experience"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Experience
+            </Link>
+            <Link
+              className="side-drawer-link"
+              activeClass="side-drawer-link-active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Contact
+            </Link>
+            <div className="side-drawer-connect">
+              <a
+                href="https://www.linkedin.com/in/akshat-gadodia"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn Link"
+              >
+                <LinkedIn fontSize="large" style={{ fontSize: "30px"  }} />
+              </a>
+              <a
+                href="https://www.github.com/akshatgadodia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub Link"
+              >
+                <GitHub fontSize="large" style={{ fontSize: "30px"  }} />
+              </a>
+              <a
+                href="https://www.youtube.com/@akshatgadodia9832"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube Link"
+              >
+                <YouTube fontSize="large" style={{ fontSize: "30px"  }} />
+              </a>
+              <a
+                href="https://www.instagram.com/akshat_gadodia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram Link"
+              >
+                <Instagram fontSize="large" style={{ fontSize: "30px"  }} />
+              </a>
+              <a
+                href="https://www.facebook.com/akshat.gadodia"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook Link"
+              >
+                <Facebook fontSize="large" style={{ fontSize: "30px"  }} />
+              </a>
+            </div>
           </div>
         </div>
       </Drawer>

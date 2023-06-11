@@ -42,6 +42,50 @@ const Navbar = () => {
           >
             Education
           </Link>
+          <Link
+            className="navbar-link"
+            activeClass="navbar-link-active"
+            to="abilities"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Abilities
+          </Link>
+          <Link
+            className="navbar-link"
+            activeClass="navbar-link-active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Projects
+          </Link>
+          <Link
+            className="navbar-link"
+            activeClass="navbar-link-active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Experience
+          </Link>
+          <Link
+            className="navbar-link"
+            activeClass="navbar-link-active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Contact
+          </Link>
         </div>
         <SideDrawer />
       </div>

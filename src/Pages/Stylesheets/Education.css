@@ -67,7 +67,6 @@
     background-color: #FFD699; /* educationize the dot color for each Timeline.Item */
     border-radius: 50% !important;
 }
-
 @media screen and (max-width: 600px) {
     .education{
         padding: 2rem 1rem; 
@@ -82,5 +81,8 @@
     }
     .education span{
         display: none;
+    }
+    .education-timeline .ant-timeline-item {
+        width: 100%;
     }
 }
