@@ -78,6 +78,28 @@ const Navbar = () => {
           <Link
             className="navbar-link"
             activeClass="navbar-link-active"
+            to="achievements"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Achievements
+          </Link>
+          <Link
+            className="navbar-link"
+            activeClass="navbar-link-active"
+            to="certifications"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Certifications
+          </Link>
+          <Link
+            className="navbar-link"
+            activeClass="navbar-link-active"
             to="contact"
             spy={true}
             smooth={true}

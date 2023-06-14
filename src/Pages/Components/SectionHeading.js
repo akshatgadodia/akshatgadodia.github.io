@@ -5,11 +5,11 @@ const SectionHeading = (props) => {
   return (
     <>
       <h2 className="section-heading">{props.heading}</h2>
-      <div className="quote">
+      <div className="section-heading-quote">
         <p>{props.quote}</p>
         {props.quoteBy && <p>{props.quoteBy}</p>}
       </div>
-      <hr />
+      <hr className="section-heading-hr"/>
     </>
   )
 }

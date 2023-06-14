@@ -1,12 +1,12 @@
 .section-heading{
-    text-align: center;
+    text-align: center !important;
     padding-bottom: 1rem;
     margin-bottom: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
     font-size: 2em;
 }
-.quote{
+.section-heading-quote{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -14,10 +14,16 @@
     gap: 8px;
     margin: 0 !important;
     padding: 0 !important;
+    text-align: center !important;
 }
-.quote p{
+.section-heading-quote p{
     margin: 0 !important;
     padding: 0 !important;
+    text-align: center !important;
+}
+.section-heading-hr{
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
 }
 
 @media screen and (max-width: 500px) {

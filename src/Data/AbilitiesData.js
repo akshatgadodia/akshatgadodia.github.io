@@ -1,34 +1,38 @@
 var SkillsData = [
     {
+        name : "JavaScript",
+        rating : 4
+    },
+    {
         name : "Java",
         rating : 4
     },
     {
         name : "HTML(5)",
-        rating : 4
+        rating : 4.5
     },
     {
         name : "CSS(3)",
         rating : 4
     },
     {
-        name : "JavaScript",
-        rating : 4
-    },
-    {
         name : "React.js",
-        rating : 4
+        rating : 4.5
     },
     {
         name : "Node.js",
-        rating : 3
+        rating : 4
+    },
+    {
+        name : "Next.js",
+        rating : 3.5
+    },
+    {
+        name : "Express.js",
+        rating : 3.5
     },
     {
         name : "Data Structure & Algorithm",
-        rating : 3
-    },
-    {
-        name : "Spring Boot",
         rating : 3
     },
     {
@@ -47,6 +51,18 @@ var SkillsData = [
         name : "MongoDB",
         rating : 3
     },
+    {
+        name : "Solidity",
+        rating : 2.5
+    },
+    {
+        name : "Blockchain",
+        rating : 3
+    },
+    {
+        name : "Python",
+        rating : 2
+    },
 ];
 
 var LanguagesData = [
@@ -63,15 +79,15 @@ var LanguagesData = [
 var ToolsData = [
     {
         name : "Eclipse IDE",
-        rating : 4
+        rating : 3.5
     },
     {
         name : "Visual Studio Code",
-        rating : 3
+        rating : 4
     },
     {
         name : "Git",
-        rating : 3
+        rating : 4
     },
     {
         name : "Postman",

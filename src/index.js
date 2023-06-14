@@ -10,6 +10,10 @@ import Abilities from './Pages/Abilities'
 import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
 import Navbar from './Pages/Components/Navbar';
+import Certifications from './Pages/Certifications';
+import DownloadResume from './Pages/Components/DownloadResume';
+import Achievements from './Pages/Achievements';
+import Experience from './Pages/Experience';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +24,11 @@ root.render(
     <Education/>
     <Abilities/>
     <Projects/>
+    <Experience/>
+    <Achievements/>
+    <Certifications/>
     <Contact/>
+    <DownloadResume/>
   </>
 );
 
