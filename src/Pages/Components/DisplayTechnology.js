@@ -1,10 +1,12 @@
-import React from 'react'
-import '../Stylesheets/Projects.css'
+import React from "react";
+import "./Stylesheets/DisplayTechnology.css";
 
 const DisplayTechnology = (props) => {
   return (
-    <div className='display-technology-div'><span>{props.name}</span></div>
-  )
-}
+    <div className="display-technology-div">
+      <span>{props.name}</span>
+    </div>
+  );
+};
 
-export default DisplayTechnology
+export default DisplayTechnology;

@@ -21,7 +21,7 @@ const Projects = () => {
               index={item.index}
               details={item.details}
               technology={item.technology}
-              link={item.link}
+              links={item.links}
             />
           );
         })}
