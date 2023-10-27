@@ -14,10 +14,11 @@ import Certifications from './Pages/Certifications';
 import DownloadResume from './Pages/Components/DownloadResume';
 import Achievements from './Pages/Achievements';
 import Experience from './Pages/Experience';
+import Blogs from './Pages/Blogs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
+  <React.StrictMode>
     <FrontPage/>
     <Navbar/>
     <AboutMePage/>
@@ -27,8 +28,9 @@ root.render(
     <Experience/>
     <Achievements/>
     <Certifications/>
+    <Blogs/>
     <Contact/>
     <DownloadResume/>
-  </>
+  </React.StrictMode>
 );
 

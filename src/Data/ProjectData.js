@@ -32,74 +32,81 @@ var ProjectData = [
     technology: ["React Native", "Python", "FastAPI"],
     links: [
       {
-        name: "Drunken Bytes Live App",
-        link: "https://drunkenbytes.vercel.app/",
+        name: "GitHub Repository Url",
+        link: "https://github.com/akshatgadodia/loan-prediction-app/",
       },
     ],
   },
   {
-    index: "02",
+    index: "03",
     name: "My Chat App",
     details:
       "My chat app is just a regular real time chat app. You can register on the app and create public and private rooms to chat in.",
     technology: ["React Native", "Node.js", "Socket.io", "MongoDB"],
     links: [
       {
-        name: "Drunken Bytes Live App",
-        link: "https://drunkenbytes.vercel.app/",
+        name: "GitHub Repository Url",
+        link: "https://github.com/akshatgadodia/my-chat",
+      },
+      {
+        name: "Demonstration Video",
+        link: "https://youtu.be/3L0w2vtApNE",
       },
     ],
   },
   {
-    index: "02",
+    index: "04",
     name: "Airport Feedback App",
     details:
       "It collects feedback forms of customer's satisfaction/grievance of different aspects of airport. Project is to collect the data electronically in the form of an app with selectable parameters and rating. The app will be available by default on the free Wi-Fi service that SKIT is going to provide at the airport.",
     technology: ["React.js", "Node.js", "Express.js", "MongoDB"],
     links: [
       {
-        name: "Drunken Bytes Live App",
-        link: "https://drunkenbytes.vercel.app/",
+        name: "Airport Feedback Live App",
+        link: "https://airport-feedback-app.vercel.app/",
+      },
+      {
+        name: "GitHub Repository Url",
+        link: "https://github.com/akshatgadodia/airport-feedback-app",
+      },
+      {
+        name: "Demonstration Video",
+        link: "https://youtu.be/Qu78xXZHwR8",
       },
     ],
   },
   {
-    index: "03",
+    index: "05",
     name: "Weather App",
     details:
       "You can use this web app to check the temperature and weather condition across the globe. This app is created using React.js and OpenWeather API.",
     technology: ["React.js"],
     links: [
       {
-        name: "Drunken Bytes Live App",
-        link: "https://drunkenbytes.vercel.app/",
+        name: "Weather App Live",
+        link: "https://akshatgadodia.github.io/weatherapp/",
+      },
+      {
+        name: "GitHub Repository Url",
+        link: "https://github.com/akshatgadodia/weatherapp",
+      },
+      {
+        name: "Demonstration Video",
+        link: "https://youtu.be/pHIJrSkuIEA",
       },
      
     ],
   },
   {
-    index: "04",
-    name: "Hospital Management System",
-    details:
-      "Helps the patients to book appointment and view their reports easily. Doctors can also view patient’s medical history and receptions can easily manage appointments and everything. This software is also for accountants and chemists.",
-    technology: ["Java", "Java Swing"],
-    links: [
-      {
-        name: "Drunken Bytes Live App",
-        link: "https://drunkenbytes.vercel.app/",
-      },
-    ],
-  },
-  {
-    index: "05",
+    index: "06",
     name: "MyBrowser",
     details:
       "My browser has the same functions as any other browser like Firefox. It also has a built in game “Bricks Breaker” which automatically opens if the user is not connected to the internet and user can also play it whenever they want",
     technology: ["Java", "Java FX"],
     links: [
       {
-        name: "Drunken Bytes Live App",
-        link: "https://drunkenbytes.vercel.app/",
+        name: "GitHub Repository Url",
+        link: "https://github.com/akshatgadodia/MyBrowser",
       },
     ],
   },

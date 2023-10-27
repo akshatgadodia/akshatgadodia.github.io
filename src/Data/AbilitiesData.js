@@ -1,10 +1,10 @@
 var SkillsData = [
     {
-        name : "JavaScript",
-        rating : 4
+        name: "Python",
+        rating: 4
     },
     {
-        name : "Java",
+        name : "JavaScript",
         rating : 4
     },
     {
@@ -16,12 +16,24 @@ var SkillsData = [
         rating : 4
     },
     {
+        name : "Django",
+        rating : 4
+    },
+    {
+        name : "Django Rest Framework",
+        rating : 4
+    },
+    {
+        name: "Docker",
+        rating: 3.5
+    },
+    {
         name : "React.js",
         rating : 4.5
     },
     {
         name : "Node.js",
-        rating : 4
+        rating : 3
     },
     {
         name : "Next.js",
@@ -41,11 +53,11 @@ var SkillsData = [
     },
     {
         name : "React Native",
-        rating : 3
+        rating : 2
     },
     {
         name : "MySQL",
-        rating : 3
+        rating : 3.5
     },
     {
         name : "MongoDB",
@@ -58,10 +70,6 @@ var SkillsData = [
     {
         name : "Blockchain",
         rating : 3
-    },
-    {
-        name : "Python",
-        rating : 2
     },
 ];
 
@@ -78,7 +86,7 @@ var LanguagesData = [
 
 var ToolsData = [
     {
-        name : "Eclipse IDE",
+        name : "PyCharm",
         rating : 3.5
     },
     {
@@ -99,7 +107,7 @@ var ToolsData = [
     },
     {
         name : "Linux",
-        rating : 2
+        rating : 3
     }
 ];
 
