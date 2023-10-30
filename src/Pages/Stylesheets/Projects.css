@@ -13,9 +13,9 @@
 }
 .projects-div{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    grid-column-gap: 5rem;
+    grid-column-gap: 4rem;
     grid-row-gap: 20px;
 }
 

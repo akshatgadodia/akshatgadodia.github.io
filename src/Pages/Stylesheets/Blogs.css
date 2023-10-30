@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    grid-column-gap: 3rem;
+    grid-column-gap: 4rem;
     grid-row-gap: 20px;
 }
 .blogs-display-more-button, .blogs-display-more-button:hover, .blogs-display-more-button:active, .blogs-display-more-button:focus{
@@ -52,6 +52,10 @@
 @media screen and (max-width: 600px) {
     .blogs{
         padding: 2rem 1rem; 
+    }
+    .blogs-container{
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
     }
 
 }

@@ -100,6 +100,17 @@ const Navbar = () => {
           <Link
             className="navbar-link"
             activeClass="navbar-link-active"
+            to="blogs"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Blogs
+          </Link>
+          <Link
+            className="navbar-link"
+            activeClass="navbar-link-active"
             to="contact"
             spy={true}
             smooth={true}

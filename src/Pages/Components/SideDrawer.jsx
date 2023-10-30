@@ -134,6 +134,17 @@ const SideDrawer = () => {
             <Link
               className="side-drawer-link"
               activeClass="side-drawer-link-active"
+              to="blogs"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Blogs
+            </Link>
+            <Link
+              className="side-drawer-link"
+              activeClass="side-drawer-link-active"
               to="contact"
               spy={true}
               smooth={true}

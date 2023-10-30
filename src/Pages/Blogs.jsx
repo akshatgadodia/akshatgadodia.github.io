@@ -37,8 +37,8 @@ const Achievements = () => {
     <div className="blogs" id="blogs">
       <SectionHeading
         heading="Blogs"
-        quote="“Genius is one percent inspiration and ninety-nine percent perspiration.”"
-        quoteBy="- Thomas Edison"
+        quote="“Preparation for tomorrow is hard work today.”"
+        quoteBy="- Bruce Lee"
       />
       <div className="blogs-container">
         {!isLoading && blogsData.map((data, idx) => {

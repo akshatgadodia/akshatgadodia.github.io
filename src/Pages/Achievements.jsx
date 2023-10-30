@@ -16,7 +16,7 @@ const Achievements = () => {
       <div className="achievements-container">
         {AchievementData.map((data, idx) => {
           return (
-            <DisplayAchievement key={idx} name={data.name} link={data.link} />
+            <DisplayAchievement key={idx} name={data.name} link={data.link} image={data.image}/>
           );
         })}
         {AchievementData.length > 10 && !displayAllAchievements && (
