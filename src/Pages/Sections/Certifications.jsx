@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "./Stylesheets/Certifications.css";
-import SectionHeading from "./Components/SectionHeading";
+import "../Stylesheets/Certifications.css";
+import SectionHeading from "../Components/SectionHeading.jsx";
 import {
   VirtualInternshipData,
   CoursesData,
-} from "../Data/CertificationData.js";
-import DisplayCourse from "./Components/DisplayCourse";
+} from "../../Data/CertificationData.js";
+import DisplayCourse from "../Components/DisplayCourse.jsx";
 
 const Certifications = () => {
   const [displayAllCourseCertificates, setDisplayAllCourseCertificates] =

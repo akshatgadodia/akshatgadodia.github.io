@@ -1,5 +1,10 @@
 var data = [
   {
+    institute: "00",
+    name: "Awarded the \"Youngest Star of the Year 2023\" for exceptional performance and dedication at AurigaIT.",
+    image: "/images/achievements/auriga_youngest_star_2023.jpeg",
+  },
+  {
     institute: "01",
     name: "Received the prestigious \"Star of the Month\" award for October 2023 from AurigaIT in recognition of my exceptional performance and dedication.",
     image: "/images/achievements/auriga_star_month_sept_2023.png",

@@ -5,7 +5,8 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 const DownloadResume = () => {
   const OpenPDFInNewTab = () => {
-    const pdfPath = process.env.PUBLIC_URL + "/AkshatGadodiaResume.pdf";
+    // const pdfPath = process.env.PUBLIC_URL + "/AkshatGadodiaResume.pdf";
+    const pdfPath = "/AkshatGadodiaResume.pdf";
     window.open(pdfPath, "_blank");
   };
 

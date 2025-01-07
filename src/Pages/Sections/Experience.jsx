@@ -1,7 +1,7 @@
 import React from "react";
-import "./Stylesheets/Experience.css";
-import SectionHeading from "./Components/SectionHeading";
-import ExperienceData from "../Data/ExperienceData.js";
+import "../Stylesheets/Experience.css";
+import SectionHeading from "../Components/SectionHeading.jsx";
+import ExperienceData from "../../Data/ExperienceData.js";
 
 import { Timeline } from "antd";
 

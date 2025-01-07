@@ -1,8 +1,8 @@
 import React from "react";
-import "./Stylesheets/Education.css";
-import EducationData from "../Data/EducationData.js";
+import "../Stylesheets/Education.css";
+import EducationData from "../../Data/EducationData.js";
 import { Timeline } from "antd";
-import SectionHeading from "./Components/SectionHeading";
+import SectionHeading from "../Components/SectionHeading.jsx";
 
 const Education = () => {
   const CustomDot = () => <div className="education-dot"></div>;

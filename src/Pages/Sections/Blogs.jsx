@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./Stylesheets/Blogs.css";
-import SectionHeading from "./Components/SectionHeading";
-import DisplayBlog from "./Components/DisplayBlog";
+import "../Stylesheets/Blogs.css";
+import SectionHeading from "../Components/SectionHeading";
+import DisplayBlog from "../Components/DisplayBlog";
 import CallMadeIcon from "@mui/icons-material/CallMade";
 import { Spin } from 'antd';
 

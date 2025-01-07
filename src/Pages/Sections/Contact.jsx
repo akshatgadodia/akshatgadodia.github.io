@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Stylesheets/Contact.css";
+import "../Stylesheets/Contact.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -7,7 +7,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import emailjs from "emailjs-com";
-import SectionHeading from "./Components/SectionHeading";
+import SectionHeading from "../Components/SectionHeading";
 import { Button, Spin, message } from "antd";
 
 const Contact = () => {

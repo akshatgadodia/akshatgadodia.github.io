@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./Stylesheets/Achievements.css";
-import AchievementData from "../Data/AchievementData.js";
-import SectionHeading from "./Components/SectionHeading";
-import DisplayAchievement from "./Components/DisplayAchievement";
+import "../Stylesheets/Achievements.css";
+import AchievementData from "../../Data/AchievementData.js";
+import SectionHeading from "../Components/SectionHeading.jsx";
+import DisplayAchievement from "../Components/DisplayAchievement.jsx";
 
 const Achievements = () => {
   const [displayAllAchievements, setDisplayAllAchievements] = useState(false);

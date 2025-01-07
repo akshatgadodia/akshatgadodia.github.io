@@ -4,7 +4,11 @@ var data = [
     date: "July 2023 - Present",
     company: "Auriga IT Consulting Private Limited",
     details: [
-      "Proficiently architected and engineered the backend infrastructure, including an administrative panel, utilizing Django, to enhance the functionality of the company's internal HR portal",
+      "Spearheaded the development and maintenance of backend functionalities using Django, ensuring robust and scalable solutions.",
+      "Designed and implemented APIs to enhance system capabilities.",
+      "Established the foundational structure for projects, meticulously organizing folders and configuring initial settings.",
+      "Developed features to streamline internal operations and boost efficiency.",
+      "Contributed to Learning and Development (L&D) initiatives for continuous improvement.",
     ],
   },
   {

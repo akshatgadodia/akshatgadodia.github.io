@@ -25,6 +25,20 @@
     font-size: 1.25em;
     font-weight: bold;
 }
+.display-projects-div-content{
+    line-height: 1.5rem;
+}
+.display-projects-contributions{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.display-projects-contributions ul{
+    padding-left: 1.5rem;
+}
+.display-projects-contributions li{
+    line-height: 1.5rem;
+}
 .display-projects-div-link{
     flex-shrink: 0;
     display: flex;

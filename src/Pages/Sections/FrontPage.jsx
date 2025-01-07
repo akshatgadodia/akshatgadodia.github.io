@@ -1,5 +1,5 @@
 import React from "react";
-import "./Stylesheets/FrontPage.css";
+import "../Stylesheets/FrontPage.css";
 import { TypeAnimation } from "react-type-animation";
 
 const FrontPage = () => {
